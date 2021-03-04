@@ -39,10 +39,10 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-            backgroundColor: CustomAppTheme.lightTheme.primaryColor,
+            backgroundColor: CustomAppTheme.selectedTheme.primaryColor,
             title: Text(
               'Custom drop down menu',
-              style: CustomAppTheme.lightTheme.textTheme.subtitle2,
+              style: CustomAppTheme.selectedTheme.textTheme.subtitle2,
             )),
         body: Row(children: [
           CustomDropDown(

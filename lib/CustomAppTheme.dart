@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 class CustomAppTheme {
+  static final ThemeData selectedTheme = lightTheme;
   static final ThemeData darkTheme = ThemeData(
     //there are alot of customization but here I will use the text style only
     // cardTheme: CardTheme(),

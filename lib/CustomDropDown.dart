@@ -34,14 +34,14 @@ class _CustomDropDownState extends State<CustomDropDown> {
   DropdownBelow buildDropdownBelow(_dropdownItems, _hint, selectedItem) {
     return DropdownBelow(
       itemWidth: 200,
-      itemTextstyle: CustomAppTheme.lightTheme.textTheme.bodyText1,
-      boxTextstyle: CustomAppTheme.lightTheme.textTheme.subtitle1,
+      itemTextstyle: CustomAppTheme.selectedTheme.textTheme.bodyText1,
+      boxTextstyle: CustomAppTheme.selectedTheme.textTheme.subtitle1,
       boxPadding: EdgeInsets.fromLTRB(13, 12, 0, 12),
       boxHeight: 45,
       boxWidth: 200,
       hint: Text(
         _hint,
-        style: CustomAppTheme.lightTheme.textTheme.caption,
+        style: CustomAppTheme.selectedTheme.textTheme.caption,
       ),
       value: selectedItem,
       items: _dropdownItems,
